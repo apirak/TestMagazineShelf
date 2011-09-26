@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'EightRootMagazineShelfTests' target in the 'EightRootMagazineShelfTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

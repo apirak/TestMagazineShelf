@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A01577581430122100C60656 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01577571430122100C60656 /* UIKit.framework */; };
+		A015775A1430122100C60656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01577591430122100C60656 /* Foundation.framework */; };
+		A015775C1430122100C60656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A015775B1430122100C60656 /* CoreGraphics.framework */; };
+		A01577621430122100C60656 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A01577601430122100C60656 /* InfoPlist.strings */; };
+		A01577651430122100C60656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01577641430122100C60656 /* main.m */; };
+		A01577681430122100C60656 /* EightRootMagazineShelfAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01577671430122100C60656 /* EightRootMagazineShelfAppDelegate.m */; };
+		A015776B1430122100C60656 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01577691430122100C60656 /* MainWindow.xib */; };
+		A015776E1430122100C60656 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A015776D1430122100C60656 /* MainViewController.m */; };
+		A01577701430122100C60656 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A015776F1430122100C60656 /* MainView.xib */; };
+		A01577731430122100C60656 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01577721430122100C60656 /* FlipsideViewController.m */; };
+		A01577751430122100C60656 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01577741430122100C60656 /* FlipsideView.xib */; };
+		A015777C1430122100C60656 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01577571430122100C60656 /* UIKit.framework */; };
+		A015777D1430122100C60656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01577591430122100C60656 /* Foundation.framework */; };
+		A015777E1430122100C60656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A015775B1430122100C60656 /* CoreGraphics.framework */; };
+		A01577861430122100C60656 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A01577841430122100C60656 /* InfoPlist.strings */; };
+		A01577891430122100C60656 /* EightRootMagazineShelfTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A01577881430122100C60656 /* EightRootMagazineShelfTests.h */; };
+		A015778B1430122100C60656 /* EightRootMagazineShelfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A015778A1430122100C60656 /* EightRootMagazineShelfTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A015777F1430122100C60656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A015774A1430122100C60656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01577521430122100C60656;
+			remoteInfo = EightRootMagazineShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A01577531430122100C60656 /* EightRootMagazineShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightRootMagazineShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01577571430122100C60656 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A01577591430122100C60656 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A015775B1430122100C60656 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A015775F1430122100C60656 /* EightRootMagazineShelf-Info.plist */ = {isa = PBXFileReference; path = "EightRootMagazineShelf-Info.plist"; sourceTree = "<group>"; };
+		A01577611430122100C60656 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A01577631430122100C60656 /* EightRootMagazineShelf-Prefix.pch */ = {isa = PBXFileReference; path = "EightRootMagazineShelf-Prefix.pch"; sourceTree = "<group>"; };
+		A01577641430122100C60656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A01577661430122100C60656 /* EightRootMagazineShelfAppDelegate.h */ = {isa = PBXFileReference; path = EightRootMagazineShelfAppDelegate.h; sourceTree = "<group>"; };
+		A01577671430122100C60656 /* EightRootMagazineShelfAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EightRootMagazineShelfAppDelegate.m; sourceTree = "<group>"; };
+		A015776A1430122100C60656 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A015776C1430122100C60656 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		A015776D1430122100C60656 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A015776F1430122100C60656 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		A01577711430122100C60656 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		A01577721430122100C60656 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		A01577741430122100C60656 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		A015777B1430122100C60656 /* EightRootMagazineShelfTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EightRootMagazineShelfTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01577831430122100C60656 /* EightRootMagazineShelfTests-Info.plist */ = {isa = PBXFileReference; path = "EightRootMagazineShelfTests-Info.plist"; sourceTree = "<group>"; };
+		A01577851430122100C60656 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A01577871430122100C60656 /* EightRootMagazineShelfTests-Prefix.pch */ = {isa = PBXFileReference; path = "EightRootMagazineShelfTests-Prefix.pch"; sourceTree = "<group>"; };
+		A01577881430122100C60656 /* EightRootMagazineShelfTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EightRootMagazineShelfTests.h; sourceTree = "<group>"; };
+		A015778A1430122100C60656 /* EightRootMagazineShelfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EightRootMagazineShelfTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01577501430122100C60656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01577581430122100C60656 /* UIKit.framework in Frameworks */,
+				A015775A1430122100C60656 /* Foundation.framework in Frameworks */,
+				A015775C1430122100C60656 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01577771430122100C60656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A015777C1430122100C60656 /* UIKit.framework in Frameworks */,
+				A015777D1430122100C60656 /* Foundation.framework in Frameworks */,
+				A015777E1430122100C60656 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01577481430122100C60656 = {
+			isa = PBXGroup;
+			children = (
+				A015775D1430122100C60656 /* EightRootMagazineShelf */,
+				A01577811430122100C60656 /* EightRootMagazineShelfTests */,
+				A01577561430122100C60656 /* Frameworks */,
+				A01577541430122100C60656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A01577541430122100C60656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01577531430122100C60656 /* EightRootMagazineShelf.app */,
+				A015777B1430122100C60656 /* EightRootMagazineShelfTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01577561430122100C60656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01577571430122100C60656 /* UIKit.framework */,
+				A01577591430122100C60656 /* Foundation.framework */,
+				A015775B1430122100C60656 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A015775D1430122100C60656 /* EightRootMagazineShelf */ = {
+			isa = PBXGroup;
+			children = (
+				A01577661430122100C60656 /* EightRootMagazineShelfAppDelegate.h */,
+				A01577671430122100C60656 /* EightRootMagazineShelfAppDelegate.m */,
+				A01577691430122100C60656 /* MainWindow.xib */,
+				A015776C1430122100C60656 /* MainViewController.h */,
+				A015776D1430122100C60656 /* MainViewController.m */,
+				A015776F1430122100C60656 /* MainView.xib */,
+				A01577711430122100C60656 /* FlipsideViewController.h */,
+				A01577721430122100C60656 /* FlipsideViewController.m */,
+				A01577741430122100C60656 /* FlipsideView.xib */,
+				A015775E1430122100C60656 /* Supporting Files */,
+			);
+			path = EightRootMagazineShelf;
+			sourceTree = "<group>";
+		};
+		A015775E1430122100C60656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A015775F1430122100C60656 /* EightRootMagazineShelf-Info.plist */,
+				A01577601430122100C60656 /* InfoPlist.strings */,
+				A01577631430122100C60656 /* EightRootMagazineShelf-Prefix.pch */,
+				A01577641430122100C60656 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A01577811430122100C60656 /* EightRootMagazineShelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				A01577881430122100C60656 /* EightRootMagazineShelfTests.h */,
+				A015778A1430122100C60656 /* EightRootMagazineShelfTests.m */,
+				A01577821430122100C60656 /* Supporting Files */,
+			);
+			path = EightRootMagazineShelfTests;
+			sourceTree = "<group>";
+		};
+		A01577821430122100C60656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A01577831430122100C60656 /* EightRootMagazineShelfTests-Info.plist */,
+				A01577841430122100C60656 /* InfoPlist.strings */,
+				A01577871430122100C60656 /* EightRootMagazineShelfTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A01577521430122100C60656 /* EightRootMagazineShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A015778E1430122100C60656 /* Build configuration list for PBXNativeTarget "EightRootMagazineShelf" */;
+			buildPhases = (
+				A015774F1430122100C60656 /* Sources */,
+				A01577501430122100C60656 /* Frameworks */,
+				A01577511430122100C60656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EightRootMagazineShelf;
+			productName = EightRootMagazineShelf;
+			productReference = A01577531430122100C60656 /* EightRootMagazineShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A015777A1430122100C60656 /* EightRootMagazineShelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01577911430122100C60656 /* Build configuration list for PBXNativeTarget "EightRootMagazineShelfTests" */;
+			buildPhases = (
+				A01577761430122100C60656 /* Sources */,
+				A01577771430122100C60656 /* Frameworks */,
+				A01577781430122100C60656 /* Resources */,
+				A01577791430122100C60656 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01577801430122100C60656 /* PBXTargetDependency */,
+			);
+			name = EightRootMagazineShelfTests;
+			productName = EightRootMagazineShelfTests;
+			productReference = A015777B1430122100C60656 /* EightRootMagazineShelfTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A015774A1430122100C60656 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A015774D1430122100C60656 /* Build configuration list for PBXProject "EightRootMagazineShelf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A01577481430122100C60656;
+			productRefGroup = A01577541430122100C60656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A01577521430122100C60656 /* EightRootMagazineShelf */,
+				A015777A1430122100C60656 /* EightRootMagazineShelfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A01577511430122100C60656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01577621430122100C60656 /* InfoPlist.strings in Resources */,
+				A015776B1430122100C60656 /* MainWindow.xib in Resources */,
+				A01577701430122100C60656 /* MainView.xib in Resources */,
+				A01577751430122100C60656 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01577781430122100C60656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01577861430122100C60656 /* InfoPlist.strings in Resources */,
+				A01577891430122100C60656 /* EightRootMagazineShelfTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A01577791430122100C60656 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A015774F1430122100C60656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01577651430122100C60656 /* main.m in Sources */,
+				A01577681430122100C60656 /* EightRootMagazineShelfAppDelegate.m in Sources */,
+				A015776E1430122100C60656 /* MainViewController.m in Sources */,
+				A01577731430122100C60656 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01577761430122100C60656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A015778B1430122100C60656 /* EightRootMagazineShelfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A01577801430122100C60656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01577521430122100C60656 /* EightRootMagazineShelf */;
+			targetProxy = A015777F1430122100C60656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A01577601430122100C60656 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01577611430122100C60656 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A01577691430122100C60656 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A015776A1430122100C60656 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A01577841430122100C60656 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01577851430122100C60656 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A015778C1430122100C60656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A015778D1430122100C60656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A015778F1430122100C60656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightRootMagazineShelf/EightRootMagazineShelf-Prefix.pch";
+				INFOPLIST_FILE = "EightRootMagazineShelf/EightRootMagazineShelf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A01577901430122100C60656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightRootMagazineShelf/EightRootMagazineShelf-Prefix.pch";
+				INFOPLIST_FILE = "EightRootMagazineShelf/EightRootMagazineShelf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A01577921430122100C60656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EightRootMagazineShelf.app/EightRootMagazineShelf";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightRootMagazineShelfTests/EightRootMagazineShelfTests-Prefix.pch";
+				INFOPLIST_FILE = "EightRootMagazineShelfTests/EightRootMagazineShelfTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A01577931430122100C60656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EightRootMagazineShelf.app/EightRootMagazineShelf";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightRootMagazineShelfTests/EightRootMagazineShelfTests-Prefix.pch";
+				INFOPLIST_FILE = "EightRootMagazineShelfTests/EightRootMagazineShelfTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A015774D1430122100C60656 /* Build configuration list for PBXProject "EightRootMagazineShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A015778C1430122100C60656 /* Debug */,
+				A015778D1430122100C60656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A015778E1430122100C60656 /* Build configuration list for PBXNativeTarget "EightRootMagazineShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A015778F1430122100C60656 /* Debug */,
+				A01577901430122100C60656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A01577911430122100C60656 /* Build configuration list for PBXNativeTarget "EightRootMagazineShelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01577921430122100C60656 /* Debug */,
+				A01577931430122100C60656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A015774A1430122100C60656 /* Project object */;
+}
